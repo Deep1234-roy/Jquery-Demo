@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First jQuery Demo</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+                crossorigin="anonymous">
+        </script>
+        <script>
+            $(document).ready(function() {
+                alert('DOM Loaded Successfully');
+            });
+        </script>
+    </head>
+    <body>
+        <p>First Para</p>
+        <p>Second Para</p>
+        <p id="pid">Third Para</p>
+        <p class="pclass">Fourth Para</p>
+        <p class="pclass">Fifth Para</p>
+        
+        <div>First Div</div><br/>
+        <div>Second Div</div><br/>
+        <div>Third Div</div><br/>
+
+        <p>First Para</p>
+        <p>Second Para</p>
+        <p id="pid">Third Para</p>
+        <p class="pclass">Fourth Para</p>
+        <p class="pclass">Fifth Para</p>
+
+    </body>
+</html>
+
+<!--
+    Enter the following code in Console window in Developer Tools
+    window.jQuery = window.$ = jQuery = $
+    jQuery('div')
+    $('div')
+    $('document')
+    var paras = $('p')
+    paras
+    paras[0].innerHTML
+-->
